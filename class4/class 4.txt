@@ -1,0 +1,1 @@
+median ,max; check salt an dpaper is removed
