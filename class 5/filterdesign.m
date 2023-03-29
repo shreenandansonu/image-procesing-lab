@@ -10,9 +10,9 @@ imshow(i2,[])
 %%
 i2=fftshift(i2);
 [r,c]=size(i2);
-R=10;x_c=1;y_c=1;
+R=20;x_c=1;y_c=1;
 [y,x]=ndgrid((-r/2)+1:r/2,(-c/2)+1:c/2);
-y= (x-x_c).^2+(y-y_c).^2 <= R^2;
+y= (x-x_c).^2+(y-y_c).^2 >= R^2;
 % pre=y==1;
 % y(y==0)=1;
 % y(pre)=0;
