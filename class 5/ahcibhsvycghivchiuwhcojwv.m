@@ -27,9 +27,8 @@ new2=ifft2(new1);
 imshow(abs(new2),[]);
 edge=abs(new2);
 sharp=double(k)+edge;
-subplot(1,2,1); imshow(sharp,[]); title('Sharpened Image');
-
-subplot(1,2,2); imshow(k,[]); title('Original Image');
+subplot(1,2,2); imshow(sharp,[]); title('Sharpened Image');
+subplot(1,2,1); imshow(k,[]); title('Original Image');
 
 
 
